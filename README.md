@@ -13,6 +13,6 @@ In general, agent installers assume that the following programs are installed:
 <!-- More details on the agents and installation details are in the wiki: https://github.com/insightfinder/InsightAgent/wiki
 -->
 # InsightFinder for Splunk
-InsightFinder also supports a special integration with Splunk via a native Splunk app.
+InsightFinder also supports a special integration with Splunk via a native Splunk app.f
 
 More details on the InsightFinder App for Splunk is available on [Splunkbase](https://splunkbase.splunk.com/app/3281/).
