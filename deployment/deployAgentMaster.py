@@ -32,7 +32,7 @@ def get_args():
     agentType = args.AGENT_TYPE
     forceInstall = args.FORCE_INSTALL
     global serverUrl
-    if args.SERVER_URL != None:
+    if args.SERVER_URL is not None:
         serverUrl = args.SERVER_URL
     return projectName, user, userInsightfinder, licenseKey, samplingInterval, reportingInterval, agentType, forceInstall
 
