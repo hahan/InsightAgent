@@ -604,7 +604,7 @@ def parse_json_message(messages):
 
 def parse_json_message_single(message):
     # filter
-    if len(agent_config_vars['filters_include']) != 0:
+    if not len(agent_config_vars['filters_include']):
         # for each provided filter
         is_valid = False
         for _filter in agent_config_vars['filters_include']:
