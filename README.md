@@ -11,7 +11,7 @@ In general, agent installers assume that the following programs are installed:
 
 <!-- The wiki is very out of date and may be unnecessary --> 
 <!-- More details on the agents and installation details are in the wiki: https://github.com/insightfinder/InsightAgent/wiki
--->
+-->f
 # InsightFinder for Splunk
 InsightFinder also supports a special integration with Splunk via a native Splunk app.
 
