@@ -586,11 +586,11 @@ def replay_sar(metric_file_path, command):
             if start_index == 3:
                 # check for excluded tags
                 device = row[2]
-                if len(exclude_tags) != 0:
-                    for tag in exclude_tags:
-                        if device == tag or (tag.endswith('*') and device.startswith(tag.split('*')[0])):
-                            exclude_flag = True
-                            break
+#                 if len(exclude_tags) != 0:
+#                     for tag in exclude_tags:
+#                         if device == tag or (tag.endswith('*') and device.startswith(tag.split('*')[0])):
+#                             exclude_flag = True
+#                             break
                 instance = device + '_' + instance
             if exclude_flag:
                 line = metric_file.readline()
