@@ -432,7 +432,7 @@ def check_csv_fieldnames(csv_field_names, all_fields):
 
 
 def check_project(project_name):
-    if 'token' in if_config_vars and len(if_config_vars['token']) != 0:
+    if 'token' in if_config_vars and if_config_vars['token']:
         logger.debug(project_name)
         try:
             # check for existing project
